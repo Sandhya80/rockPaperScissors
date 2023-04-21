@@ -1,4 +1,4 @@
-console.log('hi');
+//console.log('hi');
 const getUserChoice = userInput => {
  userInput = userInput.toLowerCase();
  if (userInput === 'rock' || userInput === 'paper' || userInput === 'scissors') {
@@ -49,9 +49,9 @@ function determineWinner (userChoice, computerChoice)  {
   }  
   }
 };
-console.log(determineWinner('paper','scissors'));
+/*console.log(determineWinner('paper','scissors'));
 console.log(determineWinner('paper','paper'));
-console.log(determineWinner('paper','rock'));
+console.log(determineWinner('paper','rock'));*/
 
 const playGame = () =>  {
   const userChoice = getUserChoice('rock');
